@@ -130,7 +130,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(1156, -2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(58, 29);
+            this.button2.Size = new System.Drawing.Size(51, 29);
             this.button2.TabIndex = 4;
             this.button2.Text = "X";
             this.button2.UseVisualStyleBackColor = false;

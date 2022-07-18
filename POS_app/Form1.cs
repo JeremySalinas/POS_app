@@ -24,16 +24,14 @@ namespace POS_app
             {
                 con.Open();
 
-                using (SqlCommand cmd = new SqlCommand("SELECT* FROM Person.EmailAddress", con))
+                using (SqlCommand cmd = new SqlCommand("SELECT* FROM Person.EmailAddress WHERE EmailAddress = '" + usernameBox.Text+"'", con))
                 {
                     SqlDataReader dr = cmd.ExecuteReader();
 
                     if (dr.Read())
                     {
-                        if (usernameBox.Text.Equals(dr["EmailAddress"].ToString()) && passwordBox.Text.Equals(dr["EmailAddress"].ToString()))
+                        if (usernameBox.Text.Equals(dr["EmailAddress"].ToString()) && usernameBox.Text == passwordBox.Text)
                         {
-                            /*products frm = new products();
-                            frm.Show();*/
                             this.Close();
                         }
                         else
