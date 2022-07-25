@@ -32,7 +32,8 @@ namespace POS_app
                     {
                         if (usernameBox.Text.Equals(dr["EmailAddress"].ToString()) && usernameBox.Text == passwordBox.Text)
                         {
-                            this.Close();
+                            Form2 frm2 = new Form2();
+                            frm2.Show();
                         }
                         else
                         {
@@ -45,6 +46,10 @@ namespace POS_app
                 con.Close();
 
             }
+        }
+
+        private void loginForm_Load(object sender, EventArgs e)
+        {
         }
     }
 }

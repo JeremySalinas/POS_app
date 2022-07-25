@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laptop-JS\\Desktop\\POS_app\\POS_app\\POS_app.csproj": {}
+    "C:\\Users\\Laptop-JS\\POS_app\\POS_app\\POS_app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laptop-JS\\Desktop\\POS_app\\POS_app\\POS_app.csproj": {
+    "C:\\Users\\Laptop-JS\\POS_app\\POS_app\\POS_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laptop-JS\\Desktop\\POS_app\\POS_app\\POS_app.csproj",
+        "projectUniqueName": "C:\\Users\\Laptop-JS\\POS_app\\POS_app\\POS_app.csproj",
         "projectName": "POS_app",
-        "projectPath": "C:\\Users\\Laptop-JS\\Desktop\\POS_app\\POS_app\\POS_app.csproj",
+        "projectPath": "C:\\Users\\Laptop-JS\\POS_app\\POS_app\\POS_app.csproj",
         "packagesPath": "C:\\Users\\Laptop-JS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laptop-JS\\Desktop\\POS_app\\POS_app\\obj\\",
+        "outputPath": "C:\\Users\\Laptop-JS\\POS_app\\POS_app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Laptop-JS\\AppData\\Roaming\\NuGet\\NuGet.Config",
