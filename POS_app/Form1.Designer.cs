@@ -57,7 +57,7 @@
             // 
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(366, 239);
+            this.panel1.Location = new System.Drawing.Point(372, 227);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(460, 289);
             this.panel1.TabIndex = 5;
@@ -120,6 +120,7 @@
             // 
             this.passwordBox.Location = new System.Drawing.Point(133, 123);
             this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(200, 27);
             this.passwordBox.TabIndex = 1;
             // 
@@ -151,6 +152,7 @@
             this.Name = "loginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.loginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.NETBIT_LOGO)).EndInit();
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
