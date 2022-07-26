@@ -17,7 +17,7 @@ namespace POS_app
     {
         public static int j = 0;
 
-        string ConnectionString = @"Data Source=192.168.14.22,1434\MSSQLSERVER; Initial Catalog=AdventureWorks2019; User ID = Oliver; Password = Welcome123; TrustServerCertificate=True";
+        string ConnectionString = @"Microsoft SQL Server";
         public UserControl1()
         {
             InitializeComponent();
