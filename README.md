@@ -3,7 +3,7 @@
 
 * Login screen that authorizes user
 
-* Product page where it shows product info and select quantity
+* Product page where it shows product info and select quantity with search bar
 
 * Checkout page shows total price, quantity of items, and new customer button
 
